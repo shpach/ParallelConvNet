@@ -1,0 +1,9 @@
+The structure of our code:
+
+In the src folder, we stored the provided serial version into serial.cu, and stored all the GPU kernels in kernels.cu
+
+In main.cu, we use forward_operation_parallel to execute all the layers. All the memory allocation, and kernel launching happen inside this function.
+
+There's two more host function in main.cu. They are both designed for easy launching matrix unrolled version of convolution layer.
+
+/src also contained query.cu and tests.cu, which are only used in the early stage of our development, and can be safely ignored.
