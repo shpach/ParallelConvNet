@@ -1,4 +1,4 @@
-# ECE 408 Project
+# Parallel Convolutional Neural Network
 
 The goal of this project is to accelerate the forward propagation step of the Convolutional Neural Network (CNN) algorithm using GPUs. The dataset and model are from the [MNIST database](http://yann.lecun.com/exdb/mnist/).
 
